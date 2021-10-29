@@ -1,5 +1,7 @@
 import "phaser";
+import { SampleEndGameScene } from "./sampleEndGameScene";
 import { SampleGameScene } from "./sampleGameScene";
+import { SampleWelcomeScene } from "./sampleWelcomeScene";
 
 //Use Phaser.Types.Core.GameConfig inplace of GameConfig
 const config: Phaser.Types.Core.GameConfig = {
@@ -7,7 +9,12 @@ const config: Phaser.Types.Core.GameConfig = {
     width: 800,
     height: 600,
     parent: "game",
-    scene: [SampleGameScene],
+    //All Scenes are mentioned here
+    scene: [
+        SampleWelcomeScene, 
+        SampleGameScene,
+        SampleEndGameScene
+    ],
     physics: {
         default: "arcade", //Physics Type
         arcade: {
