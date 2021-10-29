@@ -2,6 +2,9 @@
 Source: https://www.freecodecamp.org/news/how-to-build-a-simple-game-in-the-browser-with-phaser-3-and-typescript-bdc94719135/
 
 ## Step 1
-npm install -D typescript webpack webpack-cli ts-loader phaser live-server
+Run "npm start" to generate ./dist/... files & folders
+then deploy project along with index.html with necessary changes
+
+Note:- Use Phaser.Types.Core.GameConfig inplace of GameConfig
 
 ## Step 2
