@@ -1,0 +1,22 @@
+{
+  "name": "phaser-3-ts-project",
+  "version": "1.0.0",
+  "description": "Phaser 3 Template Project using Typescript, Webpack",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/custom-templates/phaser-3-ts-project.git"
+  },
+  "keywords": [
+    "Template"
+  ],
+  "author": "V. Sai Prakash",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/custom-templates/phaser-3-ts-project/issues"
+  },
+  "homepage": "https://github.com/custom-templates/phaser-3-ts-project#readme"
+}
